@@ -30,15 +30,22 @@ channel.Subscribe(user3);
 
 channel.AddVideo("Database Internals");
 
+
+
+
+channel = new("Design Patterns Channel");
+
 System.Console.WriteLine("\n\n");
+
 channel.Subscribe(user1);
 channel.Subscribe(user2);
+channel.Subscribe(user3);
 
 System.Console.WriteLine("\n\n");
-channel.AddVideo("Mathematics");
+channel.AddVideo("Observer Pattern");
 
 System.Console.WriteLine("\n\n");
-channel.AddVideo("Mathematics 2");
+channel.AddVideo("Strategy");
 
 System.Console.WriteLine("\n\n");
-channel.AddVideo("Mathematics 3");
+channel.AddVideo("Factory Method");
