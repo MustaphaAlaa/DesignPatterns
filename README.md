@@ -1,4 +1,5 @@
-# DesignPatterns
+# Design Patterns
+
 Implementation of design patterns
 
 This repository will contain 3 directories for the 3 categorial design patterns:
@@ -52,3 +53,4 @@ Each pattern implementation includes:
 
 ## Getting Started
 Clone this repository and explore for detailed implementations:
+
