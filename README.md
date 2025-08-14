@@ -18,9 +18,9 @@ This repository demonstrates practical implementations of the Gang of Four (GoF)
 ### 1. Creational Patterns
 - Factory Method
 - Abstract Factory
+- Singleton
 <!-- - Builder -->
 <!-- - Prototype -->
-<!-- - Singleton -->
 
 ### 2. Structural Patterns
 <!-- - Adapter -->
