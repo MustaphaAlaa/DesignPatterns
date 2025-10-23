@@ -13,21 +13,24 @@
 */
 using Decorator;
 
-
 ICoffee coffee = new TurkishCoffee();
+
 CoffeeDecorator coffeeDecorator = new MilkDecorator(coffee);
 coffeeDecorator = new CreamDecorator(coffeeDecorator);
 coffeeDecorator = new ChocolateDecorator(coffeeDecorator);
 coffeeDecorator = new VanillaFlavorDecorator(coffeeDecorator);
 
+Console.WriteLine("\n");
 Console.WriteLine(coffeeDecorator);
 
-Console.WriteLine("\n\n\n\n\n");
+Console.WriteLine("\n");
+Console.WriteLine("-------Another new Coffee-------");
+Console.WriteLine("\n");
 
 coffee = new BrazilianCoffee();
 coffeeDecorator = new MilkDecorator(coffee);
 coffeeDecorator = new CreamDecorator(coffeeDecorator);
 coffeeDecorator = new ChocolateDecorator(coffeeDecorator);
+coffeeDecorator = new ChocolateChipsDecorator(coffeeDecorator);
 
 Console.WriteLine(coffeeDecorator);
-
